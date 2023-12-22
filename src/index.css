@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --for-dark-color: #007FFF;
+  --lite-dark-color: #11151A;
+  --lite-blue-color:#2F81F7;
+  --lite-bluissh-body-background-color:#E6E6FA;
+  --yellow-color:#f5ba13;
+  --darkish-blue-backgound:#0F152B;
+  --blue-color-for-button:#3C46FF;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding:10px
+
+}
+.container img{
+  margin-left: 40px;
+}
+.container button{
+  margin-right: 40px;
+  color: white;
+  background-color: #D01C28;
+  padding: 6px 16px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+
+}
+.container button:hover{
+  background-color:#aa262f ;
+}
+
+.container a:hover{
+  color: #2F81F7;
+}
+.container ul{
+  display: flex;
+}
+
+.active{
+  color: #4d96fd;
+
+}
+.container li{
+  list-style: none;
+  margin: 5px 10px;
+
+}
+.container a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+
+/* ===========================================================================================*/
+/* Section Page */
+
+
+.main_div{
+  height: 600px;
+  width: 90%;
+  margin:30px auto;
+  display: flex;
+
+}
+.text_div{
+  width: 50%;
+  height: 100%;
+  padding-left: 15px;
+}
+.image_div{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main_heading h1{
+  font-size: 90px;line-height: 110px;
+}
+.image_div img{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.shop_now{
+  padding: 7px 18px ;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #007FFF;
+  color: #4d96fd;
+  margin: 10px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop_now:hover{
+  background-color: #4d96fd;
+  color: white;
+}
+
+.category{
+  padding: 8px 19px ;
+  font-size: 17px;
+  background-color: #007FFF;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  margin: 10px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.text_div p{
+  color: #5A5959;
+  width: 400px;
+  text-align: justify;
+
+}
+.other p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
